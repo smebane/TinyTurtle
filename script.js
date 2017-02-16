@@ -1,5 +1,14 @@
 TinyTurtle.apply(window); 
-forward(20);
-right(30);
-left(40);
-stamp(); 
+function square(width) {
+forward(width);
+left(90);
+forward(width);
+left(90);
+forward(width);
+left(90);
+forward(width);
+}
+
+square(50);
+square(90);
+stamp();
